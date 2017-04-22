@@ -2,11 +2,54 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  
 }
 /* Styles go here */
 #header{
-  border: 1px solid black;
+  border: 2px solid red;
+  height: 100px;
+  
 }
 #main{
-  border: 1px solid black;
+  border: 2px solid red;
+  height: 400px;
+  text-align: center;
+}
+
+#leftside{
+  height: 400px;
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 2px solid red;
+}
+
+#rightside{
+  height: 400px;
+  float: right;
+  width: 33%;
+  text-align: center;
+  border: 2px solid red;
+}
+
+#tweetbox{
+  width: 33.2%;
+  height: 40px;
+  float: left;
+  border: 2px solid red;
+
+}
+
+#navbar{
+  height: 98px;
+  float: left;
+  width: 40%;
+  border: 2px solid red;
+}
+
+#searchbox{
+  height: 98px;
+  float: right;
+  width: 40%;
+  border: 2px solid red;
 }
