@@ -1,20 +1,21 @@
-body {
+#body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   height: 
-  
 }
+
 /* Styles go here */
 #header{
   border: 2px solid red;
   height: 100px;
-  
 }
+
 #main{
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   height: 400px;
   text-align: center;
+  width: 100%;
 }
 
 #leftside{
@@ -37,8 +38,15 @@ body {
   width: 33.2%;
   height: 40px;
   float: left;
+  text-align: center;
   border: 2px solid red;
+}
 
+#tweetfeed{
+  width: 33.2%;
+  height: 356px;
+  float: left;
+  border: 2px solid red;
 }
 
 #navbar{
@@ -54,3 +62,12 @@ body {
   width: 40%;
   border: 2px solid red;
 }
+
+#logo{
+  height: 98px;
+  float: left;
+  width: 19.18%;
+  border: 2px solid red;
+}
+
+

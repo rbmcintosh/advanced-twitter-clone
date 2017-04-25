@@ -2,6 +2,7 @@ import React from 'react';
 import LeftSide from './LeftSide';
 import RightSide from './RightSide';
 import TweetBox from './TweetBox';
+import TweetFeed from './TweetFeed';
 
 
 function Main(){
@@ -10,6 +11,7 @@ function Main(){
     <LeftSide />
     <TweetBox />
     <RightSide />
+    <TweetFeed />
     </div>
     );
 }
